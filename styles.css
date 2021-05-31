@@ -47,6 +47,11 @@ body {
   font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+.banner-image img {
+  width: 216px;
+  hight: 100%;
+}
+
 /* -- right column: address */
 .address-wrapper {
   font-family: 'Ubuntu Condensed', sans-serif;

@@ -18,7 +18,7 @@ body {
   padding: 60px 100px;
 }
 
-/* -- left column: phone-hours */
+/* -- Left column: phone-hours */
 .navigation-wrapper > .left-column {
   display: flex;
   align-items: center;
@@ -42,7 +42,7 @@ body {
   font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-/* -- center column: nav-links */
+/* -- Center column: nav-links */
 .navigation-wrapper > .links-wrapper > .nav-link a {
   font-family: 'Ubuntu Condensed', sans-serif;
 }
@@ -87,7 +87,37 @@ body {
   letter-spacing: 2px;
 }
 
-/* -- right column: address */
+/* -- Right column: address */
+.navigation-wrapper > .right-column {
+  display: flex;
+  align-items: center;
+}
+
 .navigation-wrapper > .right-column > .address-wrapper {
   font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: right;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a {
+  color: #858585;
+  text-decoration: none;
+  font-size: 0.5em;
+  transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a:hover {
+  color: #cea135;
+}
+
+.navigation-wrapper > .right-column > .contact-icon {
+  margin-left: 15px;
+  font-size: 2em;
+}
+
+.navigation-wrapper > .right-column > .contact-icon a {
+  color: #cbcbcb;
+  transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .contact-icon a:hover {
+  color: #cea135;
 }

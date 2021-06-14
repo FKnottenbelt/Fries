@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu+Condensed&display=swap');
 
-/* Common styles */
-body {
-  margin: 0px;
-  font-family: 'Roboto', sans-serif;
-}
-
-/* Common nav styles */
+/* Nav styles */
 .navigation-wrapper {
   height: 190px;
   background-color: #11122b;
@@ -40,6 +34,8 @@ body {
 
 .navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
   font-family: 'Ubuntu Condensed', sans-serif;
+  color: #858585;
+  font-size: 0.8em;
 }
 
 /* -- Center column: nav-links */

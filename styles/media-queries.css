@@ -36,4 +36,24 @@
     font-size: 1.5em;
     width: 100%;
   }
+
+  /* Hero section */
+  .hero-section {
+    padding: 50px 10px;
+  }
+
+  /* features section */
+  .features-section {
+    height: 100%;
+  }
+
+  .features-section > .columns-wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  /* footer */
+  .footer {
+    height: 100%;
+  }
 }
